@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <ex-banner>标题</ex-banner>
+        <ex-category>分类</ex-category>
+        <ex-content>
+        <ex-comp1>组件 1</ex-comp1>
+        <ex-comp2>组件 2</ex-comp2>
+        </ex-content>
+        <ex-ad>广告</ex-ad>
+        <ex-addr>联系地址</ex-addr>
+        </div>
+
+        
+</body>
+<style>
+    /* 当屏幕宽度大于900px时应用的样式 */
+@media (min-width: 900px) {
+    .container {
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: lightblue;
+    }
+    ex-banner {
+    width: 100%;
+    height: 50px;
+    float: left;
+    font-size: 2.5em;
+    background-color: tomato;
+    }
+    ex-category {
+        width: 20%;
+        height: 400px;
+        float: left;
+        
+        background-color: tomato;
+    }
+
+}
+</style>
+</html>
